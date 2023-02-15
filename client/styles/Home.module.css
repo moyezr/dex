@@ -1,0 +1,113 @@
+.main {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+ .sub_heading {
+    font-size: 1.5rem;
+ }
+ 
+ .liquidity_box {
+    margin: 2rem auto;
+ }
+
+  .image {
+    width: 70%;
+    height: 50%;
+    margin-left: 20%;
+  }
+  
+  .input {
+    width: 200px;
+    height: 100%;
+    padding: 1%;
+    margin: 2%;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+  }
+  
+
+  .description {
+    line-height: 1;
+    margin: 2%;
+
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .button1 {
+    border-radius: 4px;
+    background-color: rgb(161, 0, 161);
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    margin: 2%;
+    transition: all 0.1s;
+  }
+
+  .button1:hover {
+    background-color: rgb(255, 2, 255);
+  }
+  
+  .inputDiv {
+    width: 200px;
+    height: 100%;
+    padding: 4px 6px;
+    color: white;
+    margin: 2%;
+    border: lightslategray;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+  }
+  .select {
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+    width: 175px;
+    cursor: pointer;
+    margin: 2%;
+  }
+  
+
+  .tab_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .tab_button {
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  .active_tab {
+    background-color: rgb(0, 119, 255);
+  }
+  @media (max-width: 1000px) {
+    .main {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
